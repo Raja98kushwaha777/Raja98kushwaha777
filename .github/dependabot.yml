@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Social Media Platform</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .navbar { background-color: #333; overflow: hidden; }
+        .navbar a { float: left; display: block; color: white; text-align: center; padding: 14px 20px; text-decoration: none; }
+        .navbar a:hover { background-color: #ddd; color: black; }
+        .container { padding: 20px; }
+        .footer { background-color: #333; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <div class="container">
+        <h1>Welcome to Simple Social Media Platform</h1>
+        <p>This is a simple representation of a social media platform similar to Facebook, YouTube, and Telegram.</p>
+    </div>
+    <div class="footer">
+        <p>Footer content here</p>
+    </div>
+</body>
+</html>
